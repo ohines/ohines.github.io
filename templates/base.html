@@ -13,7 +13,14 @@
         <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
 
         <title>{% block htmltitle %}{{ config.title }}{% endblock htmltitle %}</title>
-
+        <meta property="og:site_name" content="{{ config.title }}" />
+        {% block meta_content %}
+            {% if config.description %}
+            <meta name="description" content="{{ config.description | safe }}" />
+            <meta name="twitter:description" content="{{ config.description | safe }}">
+            <meta property="og:description" content="{{ config.description | safe }}" />
+            {% endif %}
+        {% endblock meta_content %}
         {% if config.generate_rss %}
             <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path='rss.xml') }}">
         {% endif %}

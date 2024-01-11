@@ -1,5 +1,6 @@
 +++
 title = "research"
+description = "Research profile of Oliver Hines"
 
 [extra]
 hide_title = true

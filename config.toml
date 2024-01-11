@@ -1,7 +1,8 @@
 # The URL the site will be built for
-base_url = "https://ohines.github.io"
+base_url = "https://www.ohines.com"
 
 title = "Oliver Hines"
+description = "Oliver Hines - Data scientist and researcher in statistics and biostatistics."
 compile_sass = true
 build_search_index = false
 
@@ -20,5 +21,5 @@ social = [
     { name = "twitter", link = "https://twitter.com/hines8" },
     { name = "github", link = "https://github.com/ohines" },
     { name = "linkedin", link = "https://www.linkedin.com/in/oliver-hines/" },
-    { name = "email", link = "mailto:olliehines@gmail.com" }
+    { name = "email", link = "mailto:query@ohines.com" }
 ]
