@@ -12,7 +12,7 @@ hide_title = true
 
 # Education
 
-- PhD Biostatistics, **London School of Hygeine and Tropical Medicine**. Oct 2018 - July 2022
+- PhD Biostatistics, **London School of Hygiene and Tropical Medicine**. Oct 2018 - July 2022
 - Visiting scholar, **University of California Berkeley**. Jan 2022 - May 2022
 - MSc Statistics, **Imperial College London**. Sept 2017 - Sept 2018
 - MSci Physics with Theoretical Physics, **Imperial College London**. Sept 2013 - June 2017
