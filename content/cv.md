@@ -7,7 +7,7 @@ hide_title = true
 
 # Experience
 
-- Data Scientist, **Quantco**. Aug 2022 - Present.
+- Data Scientist, **Quantco**. Aug 2022 - Present
 - Quantitative engineering intern, **Credit suisse**. June 2021 - Aug 2021
 
 # Education
