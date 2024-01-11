@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block htmltitle %}{% endblock htmltitle %}
+
+{% block body %}
+<div class="wrap">
+    <div class="section top-menu">{{ macros::menu() }}</div>
+    <div class="index-title">{% if not section.extra.hide_title %}{{ section.title }}{% endif %}</div>
+    <div class="section" id="content">{{ section.content | safe }}</div>
+    <div class="section bottom-menu">{{ macros::render_social_icons() }}</div>
+</div>
+{% endblock body %}

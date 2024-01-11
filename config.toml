@@ -1,0 +1,24 @@
+# The URL the site will be built for
+base_url = "https://ohines.github.io"
+
+title = "Oliver Hines"
+compile_sass = true
+build_search_index = false
+
+[markdown]
+highlight_code = true
+
+[extra]
+top_menu = true
+menu = [
+    { text = "home", link = "/" },
+    { text = "research", link = "/research" },
+    { text = "cv", link = "/cv" },
+    { text = "thesis", link = "/thesis" }
+]
+social = [
+    { name = "twitter", link = "https://twitter.com/hines8" },
+    { name = "github", link = "https://github.com/ohines" },
+    { name = "linkedin", link = "https://www.linkedin.com/in/oliver-hines/" },
+    { name = "email", link = "mailto:olliehines@gmail.com" }
+]

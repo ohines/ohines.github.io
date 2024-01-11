@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block htmltitle %}{{ page.title }}{% endblock htmltitle %}
+
+{% block title %}{% if not page.extra.hide_title %}{{ page.title }}{% endif %}{% endblock title %}
+
+{% block content %}{{ page.content | safe }}{% endblock content %}
