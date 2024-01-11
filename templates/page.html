@@ -2,6 +2,14 @@
 
 {% block htmltitle %}{{ config.title }} - {{ page.title }}{% endblock htmltitle %}
 
+{% block meta_content %}
+    {% if page.description %}
+    <meta name="description" content="{{ page.description | safe }}" />
+    <meta name="twitter:description" content="{{ page.description | safe }}">
+    <meta property="og:description" content="{{ page.description | safe }}" />
+    {% endif %}
+{% endblock meta_content %}
+
 {% block title %}{% if not page.extra.hide_title %}{{ page.title }}{% endif %}{% endblock title %}
 
 {% block content %}{{ page.content | safe }}{% endblock content %}

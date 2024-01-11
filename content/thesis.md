@@ -1,5 +1,6 @@
 +++
 title = "thesis"
+description = "Introductory chapter from the PhD thesis of Oliver Hines"
 
 [extra]
 hide_title = true

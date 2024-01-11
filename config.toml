@@ -2,6 +2,7 @@
 base_url = "https://ohines.github.io"
 
 title = "Oliver Hines"
+description = "Oliver Hines - Data scientist and researcher in statistics and biostatistics."
 compile_sass = true
 build_search_index = false
 

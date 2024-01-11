@@ -1,5 +1,6 @@
 +++
 title = "cv"
+description = "Curriculum Vitae of Oliver Hines"
 
 [extra]
 hide_title = true
