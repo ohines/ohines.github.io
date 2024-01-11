@@ -8,7 +8,7 @@ hide_title = true
 
 # Thesis Introduction
 
-Below is a reproduction of the introductory chapter of my thesis outlining my approach to statistics and contributions. This excerpt includes links to papers that form the basis of some thesis chapters. This chapter can be cited as:
+Below is a reproduction of the introductory chapter of my thesis outlining the context of my work and contributions. This excerpt includes links to papers that form the basis of some thesis chapters. This chapter can be cited as:
 - Hines O. J. (2023) Introduction. In *Assumption-lean inference for causal and statistical questions in the era of machine learning* \[Doctoral thesis, London School of Hygiene and Tropical Medicine\].
 
 
