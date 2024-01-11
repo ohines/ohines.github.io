@@ -20,5 +20,5 @@ social = [
     { name = "twitter", link = "https://twitter.com/hines8" },
     { name = "github", link = "https://github.com/ohines" },
     { name = "linkedin", link = "https://www.linkedin.com/in/oliver-hines/" },
-    { name = "email", link = "mailto:olliehines@gmail.com" }
+    { name = "email", link = "mailto:query@ohines.com" }
 ]

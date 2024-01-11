@@ -51,7 +51,7 @@ Although the theory of model-free estimand based inference is most often applied
 
 [^4]: These ideas are codified in the 'Roadmap' by van der Laan and Rose (2011), Petersen and van der Laan (2014) and rely on results from nonparametric statistics, which we discuss in [Chapter 4](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7nqnc34AAAAJ&citation_for_view=7nqnc34AAAAJ:2osOgNQ5qMEC), see e.g. Pfanzagl and Wefelmeyer (1985), Pfanzagl (1990), Bickel et al. (1993).
 
-[^5]: See e.g. Ribeiro (2016), Lundberg (2017) for proposals related to interpreting black-box predictions.
+[^5]: See e.g. Ribeiro et al. (2016), Lundberg and Lee (2017) for proposals related to interpreting black-box predictions.
 
 <details>
 <summary>View references</summary>
