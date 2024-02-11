@@ -20,8 +20,8 @@ hide_title = true
 
 ## Awards
 
-- 2024 **Bradford Hill Prize** (PhD research in biostatistics methods). LSHTM
+- 2024 **Bradford Hill Prize** (Doctoral research in biostatistics methods). LSHTM
 - 2022 **Young Statistician Showcase Award**. International Biometric Conference
-- 2021 **PhD Enrichment Scholarship** (cancelled due to covid). Alan Turing Institute
-- 2018 - 2022 **PhD Studentship**. Medical Research Council of the United Kingdom
+- 2021 **Enrichment Scholarship** (cancelled due to covid). Alan Turing Institute
+- 2018 - 2022 **Doctoral Studentship**. Medical Research Council of the United Kingdom
 - 2016 **Undergraduate Research Opportunities Programme**. Imperial College London
