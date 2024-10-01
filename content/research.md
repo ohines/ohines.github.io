@@ -36,6 +36,10 @@ Physiological Genomics, 2020.
 
 # Preprints
 
+- [Automatic debiasing of neural networks via moment-constrained learning.](https://doi.org/10.48550/arXiv.2409.19777)\
+Hines, C. L., \& Hines, O. J.\
+Arxiv 2024.
+
 - [Optimally weighted average derivative effects.](https://doi.org/10.48550/arXiv.2308.05456)\
 Hines, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
 Arxiv 2023.
