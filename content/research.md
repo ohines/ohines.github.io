@@ -10,6 +10,10 @@ hide_title = true
 
 See [google scholar page](https://scholar.google.com/citations?hl=en&user=7nqnc34AAAAJ) for additional information.
 
+- [Automatic debiasing of neural networks via moment-constrained learning.](https://doi.org/10.48550/arXiv.2409.19777)\
+Hines, C. L., \& Hines, O. J.\
+Arxiv 2024 (Forthcoming in Causal Learning and Reasoning 2025).
+
 - [Demystifying statistical learning based on efficient influence functions.](https://doi.org/10.1080/00031305.2021.2021984)\
 Hines, O., Dukes, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
 The American Statistician, 2022.
@@ -32,13 +36,9 @@ European Heart Journal - Cardiovascular Pharmacotherapy, 2021.
 
 - [Causal graphs for the analysis of genetic cohort data.](https://doi.org/10.1152/physiolgenomics.00115.2019)\
 Hines, O., Diaz-Ordaz, K., Vansteelandt, S., \& Jamshidi, Y.\
-Physiological Genomics, 2020. 
+Physiological Genomics, 2020.
 
 # Preprints
-
-- [Automatic debiasing of neural networks via moment-constrained learning.](https://doi.org/10.48550/arXiv.2409.19777)\
-Hines, C. L., \& Hines, O. J.\
-Arxiv 2024.
 
 - [Optimally weighted average derivative effects.](https://doi.org/10.48550/arXiv.2308.05456)\
 Hines, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
