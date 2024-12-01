@@ -20,6 +20,7 @@ menu = [
 social = [
     { name = "twitter", link = "https://twitter.com/hines8" },
     { name = "github", link = "https://github.com/ohines" },
+    { name = "bluesky", link = "https://bsky.app/profile/ohines.bsky.social" },
     { name = "linkedin", link = "https://www.linkedin.com/in/oliver-hines/" },
     { name = "email", link = "mailto:query@ohines.com" }
 ]
