@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="referrer" content="no-referrer">
+
+        <link rel="stylesheet" href="https://www.ohines.com/fonts.css">
+        <link rel="stylesheet" href="https://www.ohines.com/style.css">
+
+        <title>Oliver Hines - thesis</title>
+        <meta property="og:site_name" content="Oliver Hines" />
+        
+    
+    <meta name="description" content="Introductory chapter from the PhD thesis of Oliver Hines">
+    <meta name="twitter:description" content="Introductory chapter from the PhD thesis of Oliver Hines">
+    <meta property="og:description" content="Introductory chapter from the PhD thesis of Oliver Hines">
+    
+
+        
+        <script src="https://kit.fontawesome.com/62c33da894.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        
+        <div class="wrap">
+            <div class="section top-menu">
+        <p>
+            
+                
+                    <a href="&#x2F;">home</a>
+                     &#183; 
+                
+                    <a href="&#x2F;research">research</a>
+                     &#183; 
+                
+                    <a href="&#x2F;cv">cv</a>
+                     &#183; 
+                
+                    <a href="&#x2F;thesis">thesis</a>
+                    
+                
+            
+        </p>
+</div>
+            <div class="section" id="title"></div>
+            <div class="section" id="sections"></div>
+            <div class="section" id="content"><h1 id="thesis-introduction">Thesis Introduction</h1>
+<p>Below is a reproduction of the introductory chapter of my thesis outlining the context of my work and contributions. This excerpt includes links to papers that form the basis of some thesis chapters. This chapter can be cited as:</p>
+<ul>
+<li>Hines O. J. (2023) Introduction. In <em>Assumption-lean inference for causal and statistical questions in the era of machine learning</em> [Doctoral thesis, London School of Hygiene and Tropical Medicine]. <a href="https://doi.org/10.17037/PUBS.04670988">DOI: doi.org/10.17037/PUBS.04670988</a></li>
+</ul>
+<h2 id="background">Background</h2>
+<p>Modern statistical theory is built on a foundation of model based inference, where the targets of inference are the parameters indexing assumed semi-parametric statistical models<sup class="footnote-reference"><a href="#1">1</a></sup>. It is difficult to overstate the impact that this theory has had on society (epidemiology, psychology, economics etc.), especially since the latter half of the 20th century when advances in computational technology have meant that data is more routinely collected, and the cost of computing increasingly intricate analyses has been significantly reduced. As human beings, we find parametric models relatively straightforward to reason about, with model parameters encoding different aspects of the data generating mechanism. For instance, the model parameters indexing generalised linear models can inform investigators about the main effect of an exposure on an outcome, modification of this main effect by other variables, or mediation of the main effect through other variables. Parameter interpretations of this type, however, are inherently 'causal' in nature, but despite this, little regard was given to the causal nature of the statistical model for much of the development of modern statistics. Instead, causal reasoning was understood to be simply outside of the remit of statisticians, with deliberately non-causal language used to describe statistical results.</p>
+<p>Over recent decades, a theory of causal inference has developed<sup class="footnote-reference"><a href="#2">2</a></sup> whereby a second 'causal model' is specified alongside the statistical model. Formally, the causal model is a mathematical structure which encodes the assumed conditional independence relationships between the random variables of interest that is required to interpret model parameters 'causally'. Contrary to its name, the methods of 'causal inference' are not able to infer whether one variable causes another or vice-versa, rather one might say that the goal of causal inference is to interpret the objects of ordinary statistical inference, in view of the assumed causal model. Indeed the algorithms and statistical machinery used in causal inference analyses are often identical to those used to make non-causal statements regarding association and correlation. Moreover, causal modelling relies on untestable causal assumptions, with domain-specific expert knowledge required to elicit and defend causal assumptions.</p>
+<p>Philosophically speaking, the separation of the causal model and the statistical model is appealing since conditional independence assumptions that are made for the purposes of interpretation (the causal model) are distinct from those which encode a priori known parametric structure about the data-generating mechanism (the statistical model). Oftentimes, however, assumptions regarding the statistical model do not represent a priori known parametric structure, but instead are made either to facilitate inference or simplify model interpretability<sup class="footnote-reference"><a href="#3">3</a></sup>. For example, time-to-event analyses in medical research routinely assume Cox proportional hazards models for convenience and because hazard ratio parameters are (arguably) easy to interpret. This results in two main issues which arise when the statistical model is misspecified: firstly, different estimators of the same model parameter may converge to different results; and secondly, it is not so clear how the resulting (estimator dependent) estimates should be interpreted, even in the limit as sample size grows to infinity. Worse still, these problems persist even when model/variable selection strategies are used to mitigate the risk of model misspecification, not least because uncertainty due to model selection is rarely acknowledged.</p>
+<p>To address these issues, it has become increasingly common to centre analyses around nonparametrically defined targets of inference, called 'estimands', instead of focussing on statistical model parameters<sup class="footnote-reference"><a href="#4">4</a></sup>. Like statistical model parameters, estimands can often be ascribed a causal interpretation under an assumed causal model, though the study of estimands remains interesting even in settings where this is not the case. The advantage of targeting a model-free estimand is that analysts can be more flexible in the modelling strategies used to estimate requisite statistical functionals, since the interpretation of the estimand does not rely on any particular form of the statistical model. In effect, this means that statistical models can be replaced with more flexible 'algorithmic machine learning models' (e.g. lasso, neural networks, gradient boosting, random forests, ensemble learning etc.), which are routinely used for prediction tasks in the computer sciences.</p>
+<p>Moreover, these developments are significant for the machine learning community, since complicated machine learning models, which may perform well in prediction tasks, are sometimes criticised as being 'black box' due to their lack of model interpretability<sup class="footnote-reference"><a href="#5">5</a></sup>. The nonparametric theory surrounding estimands therefore provides a valuable tool for explaining the broad trends which are encoded in machine learning prediction models.</p>
+<p>The current PhD project sits at the intersection of the four aforementioned topics: statistical modelling, causal modelling, estimand based inference, and algorithmic machine learning, and makes several contributions as outlined below.</p>
+<h2 id="contributions">Contributions</h2>
+<p>This PhD thesis consists of several self-contained chapters, intended to read like a series of thematically linked journal articles. This structure was chosen because this is the way that the field of statistics usually develops, by considering specific limited problems, with novel results communicated through standalone articles.</p>
+<p><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7nqnc34AAAAJ&amp;citation_for_view=7nqnc34AAAAJ:qjMakFHDy7sC">Chapter 2</a> gives an introduction to causal modelling and outlines several common causal model structures which occur in the field of genetics and genetic epidemiology. The application area of genetic data is interesting, since it represents a field where parametric statistical modelling techniques are routinely used e.g. to parameterise the effect of a particular genetic variant on a physical trait, and to account for genetic cohorts with heterogeneous ancestry. We use causal directed acyclic graphs (DAGs) as a tool for representing causal assumptions and deriving implied independencies. Whilst the use of DAGs is common when discussing some genetic applications, such as Mendelian randomisation, we have not seen elsewhere similar discussions regarding genome wide association studies and ancestral confounding, with only limited DAG based discussions of selection biases in genetic cohorts. The main contribution of this chapter is therefore to consolidate these causal model structures and explain how they may be used to ascribe a causal interpretation to statistical model parameters.</p>
+<p><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7nqnc34AAAAJ&amp;citation_for_view=7nqnc34AAAAJ:d1gkVwhDpl0C">Chapter 3</a> focusses on the problem of inferring natural direct and natural indirect effects, under standard causal assumptions, and assuming certain semi-parametric partially linear models. Natural direct and indirect effects are nonparametric estimands that arise in mediation analyses in epidemiology, psychometrics, and economics. They quantify the amount by which a 'mediating variable' transmits the main effect of an exposure on an outcome, and under common partially linear statistical model assumptions, respectively reduce to a single model coefficient and a product of two model coefficients. The latter product of coefficients makes inference in this context particularly challenging, and we use a so-called 'G-estimation strategy' to address this inference problem in a new way. Our estimators demonstrate appealing robustness properties when parts of the model are misspecified and we make use of recent score-type testing results to test null effect hypotheses.</p>
+<p>Whilst <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7nqnc34AAAAJ&amp;citation_for_view=7nqnc34AAAAJ:d1gkVwhDpl0C">Chapter 3</a> evokes semi-parametric statistical models to infer nonparametric estimands, <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7nqnc34AAAAJ&amp;citation_for_view=7nqnc34AAAAJ:2osOgNQ5qMEC">Chapter 4</a> demonstrates how estimand inference can be carried out in a model-free way, so long as the estimand is 'pathwise differentiable'. Such estimands usually permit efficient estimators that are amenable to data-adaptive/ machine learning estimation of requisite statistical functionals, representing a fundamental and revolutionary departure from parametric statistical modelling in terms of how data is analysed and results are interpreted. One of the main challenges in deriving efficient estimators is first to derive the estimand's 'pathwise derivative', also called its 'efficient influence function/curve'. The goal of <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7nqnc34AAAAJ&amp;citation_for_view=7nqnc34AAAAJ:2osOgNQ5qMEC">Chapter 4</a> is to demystify estimand inference, with a particular focus on influence curve derivations, often regarded as somewhat of a dark art. We advocate a 'point mass contamination' method for influence curve derivation and rederive several literature influence curves using this approach. In later Chapters, we use this same method to derive efficient influence curves for new estimands.</p>
+<p><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7nqnc34AAAAJ&amp;citation_for_view=7nqnc34AAAAJ:UeHWp8X0CEIC">Chapter 5</a> contains a proposal for a new estimand to quantify the importance of covariates in explaining heterogeneity in the effect of a binary treatment on an outcome. The proposed estimands are a novel contribution of the current thesis and relate analogous 'variable importance estimands' in nonparametric regression analysis to recent 'variance of treatment effect' estimands, which act as global measures of treatment effect heterogeneity. We assume a canonical causal model as found in the literature on (conditional) average treatment effects, making the proposed methods immediately applicable to e.g. both clinical trials data and observational 'real world' data.</p>
+<p>One common feature of the proposed variable importance estimands, the regression variable importance estimands, and the variance of treatment effect estimand, is that they are all defined on a bounded support e.g. [0,∞) or [0,1]. This makes subsequent inference challenging since the asymptotic normality of the estimator breaks down in finite samples when the true estimand value is close to the boundary of the support. This issue is addressed in Chapter 6, which contains a generic proposal for score based inference of nonparametric estimands, as opposed to the typical Wald type methods described in <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7nqnc34AAAAJ&amp;citation_for_view=7nqnc34AAAAJ:2osOgNQ5qMEC">Chapter 4</a>. Our proposal builds on ideas from 'targeted learning' (TMLE) and the score testing procedures considered in <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7nqnc34AAAAJ&amp;citation_for_view=7nqnc34AAAAJ:d1gkVwhDpl0C">Chapter 3</a>, and is shown to perform well in simulation studies in terms of confidence interval coverage.</p>
+<p>Although the theory of model-free estimand based inference is most often applied to settings where the estimand is causally interpreted under a causal model, it is not necessary that the estimand is causally motivated. In <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7nqnc34AAAAJ&amp;citation_for_view=7nqnc34AAAAJ:Y0pCki6q_DkC">Chapter 7</a> we present results for weighted derivative effect estimands, which have classically been studied in the econometrics literature in the context of single index models, though they remain equally applicable to epidemiological problems. These estimands consider how the conditional response surface of an outcome varies, on average, for small changes in the exposure. Traditional estimators are based on nonparametric kernel density estimators, however these introduce complicated biases as the number of the predictors grows. By considering nonparametric efficiency bounds, we derive an optimally weighted average derivative estimand and connect it to literature on so-called projection estimands in partially linear models. We propose a class of 'least squares estimands' containing the optimal one and derive efficient estimators under the model-free estimand inference framework, reviewed in <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7nqnc34AAAAJ&amp;citation_for_view=7nqnc34AAAAJ:2osOgNQ5qMEC">Chapter 4</a>. In Chapter 8, least-squares estimands, and other weighted derivative effect estimands, are ascribed a causal interpretation in terms of so-called stochastic interventions.</p>
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>Likelihood based inference developed in the late 19th and early 20th century with pioneering work by Galton, Pearson, Fisher, Neyman, Cramer, Rao etc..</p>
+</div>
+<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+<p>Causal developments are discussed in <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7nqnc34AAAAJ&amp;citation_for_view=7nqnc34AAAAJ:qjMakFHDy7sC">Chapter 2</a> with early work by Rubens, Pearl and others see e.g. Pearl (1986), Rubin (2005), Glymour (2006), Hernán and Robins (2020).</p>
+</div>
+<div class="footnote-definition" id="3"><sup class="footnote-definition-label">3</sup>
+<p>Criticisms of this type can be found in Breiman (2001), van der Laan (2015), Vansteelandt and Dukes (2022).</p>
+</div>
+<div class="footnote-definition" id="4"><sup class="footnote-definition-label">4</sup>
+<p>These ideas are codified in the 'Roadmap' by van der Laan and Rose (2011), Petersen and van der Laan (2014) and rely on results from nonparametric statistics, which we discuss in <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7nqnc34AAAAJ&amp;citation_for_view=7nqnc34AAAAJ:2osOgNQ5qMEC">Chapter 4</a>, see e.g. Pfanzagl and Wefelmeyer (1985), Pfanzagl (1990), Bickel et al. (1993).</p>
+</div>
+<div class="footnote-definition" id="5"><sup class="footnote-definition-label">5</sup>
+<p>See e.g. Ribeiro et al. (2016), Lundberg and Lee (2017) for proposals related to interpreting black-box predictions.</p>
+</div>
+<details>
+<summary>View references</summary>
+<h2 id="references">References</h2>
+<ul>
+<li>Bickel, P. J., Klaassen, C. A., Bickel, P. J., Ritov, Y., Klaassen, J., Wellner, J. A., and Ritov, Y. (1993). <em>Efficient and adaptive estimation for semiparametric models</em>, volume 4. Johns Hopkins University Press Baltimore.</li>
+<li>Breiman, L. (2001). <em>Statistical modeling: The two cultures</em>. Statistical Science, 16(3):199–215.</li>
+<li>Glymour, M. M. (2006). <em>Using causal diagrams to understand common problems in social epidemiology</em>. In Methods in Social Epidemiology, 393–428. John Wiley and Sons.</li>
+<li>Hernán, M. A. and Robins, J. M. (2006). <em>Estimating causal effects from epidemiological data</em>. Journal of Epidemiology &amp; Community Health, 60(7):578–586.</li>
+<li>Lundberg, S. M. and Lee, S.-I. (2017). <em>A unified approach to interpreting model predictions</em>. In Proceedings of the 31st international conference on neural information processing systems, 4768–4777.</li>
+<li>Pearl, J. (1986). <em>Fusion, propagation, and structuring in belief networks</em>. Artificial Intelligence, 29(3):241– 288.</li>
+<li>Petersen, M. L. and van der Laan, M. J. (2014). <em>Causal models and learning from data: Integrating causal modeling and statistical estimation</em>. Epidemiology, 25(3):418–426.</li>
+<li>Pfanzagl, J. and Wefelmeyer, W. (1985). <em>Contributions to a general asymptotic statistical theory</em>. Statistics &amp; Risk Modeling, 3(3-4):379–388.</li>
+<li>Pfanzagl, J. (1990). <em>Estimation in semiparametric models</em>. In Estimation in Semiparametric Models, 17–22. Springer.</li>
+<li>Ribeiro, M. T., Singh, S., and Guestrin, C. (2016). <em>”Why Should I Trust You?” Explaining the Predictions of Any Classifier</em>. NAACL-HLT 2016 - 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Proceedings of the Demonstrations Session, 97–101.</li>
+<li>Rubin, D. B. (2005). <em>Causal inference using potential outcomes: Design, modeling, decisions</em>. Journal of the American Statistical Association, 100(469):322–331.</li>
+<li>van der Laan, M. J. and Rose, S. (2011). <em>Targeted Learning</em>, volume 27 of Springer Series in Statistics.
+Springer New York, New York, NY.</li>
+<li>van der Laan, M. J. (2015). <em>Statistics as a science, not an art: the way to survive in data science</em>. Amstat News, 1.</li>
+<li>Vansteelandt, S. and Dukes, O. (2022). <em>Assumption-lean inference for generalised linear model parameters</em>. Journal of the Royal Statistical Society: Series B (Statistical Methodology), 84(3):657–685.</li>
+</ul>
+</details>
+</div>
+            <div class="section bottom-menu">
+<p>
+
+<a href="https:&#x2F;&#x2F;twitter.com&#x2F;hines8" title="twitter" class="logo-link">
+    
+    <i class="fa-brands fa-x-twitter fa-xl"></i>
+    
+</a>
+
+<a href="https:&#x2F;&#x2F;github.com&#x2F;ohines" title="github" class="logo-link">
+    
+    <i class="fa-brands fa-github fa-xl"></i>
+    
+</a>
+
+<a href="https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;ohines.bsky.social" title="bluesky" class="logo-link">
+    
+    <i class="fa-brands fa-bluesky fa-xl"></i>
+    
+</a>
+
+<a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;oliver-hines&#x2F;" title="linkedin" class="logo-link">
+    
+    <i class="fa-brands fa-linkedin-in fa-xl"></i>
+    
+</a>
+
+<a href="mailto:query@ohines.com" title="email" class="logo-link">
+    
+    <i class="fa-regular fa-envelope fa-xl"></i>
+    
+</a>
+
+</p>
+</div>
+        </div>
+        
+        
+    </body>
+</html>
