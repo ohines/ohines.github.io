@@ -1,7 +1,6 @@
 +++
 template = "index.html"
 title = "Oliver Hines"
-assets = ["images"]
 +++
 
 <img src="portrait.jpg" alt="Photo of Oliver Hines">
