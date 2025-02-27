@@ -6,7 +6,7 @@ description = "Research profile of Oliver Hines"
 hide_title = true
 +++
 
-# Publications
+## Publications
 
 See [google scholar page](https://scholar.google.com/citations?hl=en&user=7nqnc34AAAAJ) for additional information.
 
@@ -38,7 +38,7 @@ European Heart Journal - Cardiovascular Pharmacotherapy, 2021.
 Hines, O., Diaz-Ordaz, K., Vansteelandt, S., \& Jamshidi, Y.\
 Physiological Genomics, 2020.
 
-# Preprints
+## Preprints
 
 - [Optimally weighted average derivative effects.](https://doi.org/10.48550/arXiv.2308.05456)\
 Hines, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
@@ -52,7 +52,7 @@ Arxiv 2022.
 Hines, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
 Arxiv 2021.
 
-# Presentations and workshops
+## Presentations and workshops
 
 - *Causal inference with continuous treatments, a tale of two estimands*. Symposium organised by the Centre for Microdata Methods and Practice (London, UK), December 2023.
 
@@ -68,7 +68,7 @@ Arxiv 2021.
 
 - *Causal machine learning workshop*. European Causal Inference Meeting (virtual), May 2021.
 
-# Peer review service
+## Peer review service
 
 - Biometrics
 
@@ -81,4 +81,3 @@ Arxiv 2021.
 - Scandinavian Journal of Statistics
 
 - Statistica Sinica
-
