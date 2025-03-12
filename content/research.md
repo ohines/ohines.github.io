@@ -6,9 +6,13 @@ description = "Research profile of Oliver Hines"
 hide_title = true
 +++
 
-# Publications
+## Publications
 
 See [google scholar page](https://scholar.google.com/citations?hl=en&user=7nqnc34AAAAJ) for additional information.
+
+- [Automatic debiasing of neural networks via moment-constrained learning.](https://doi.org/10.48550/arXiv.2409.19777)\
+Hines, C. L., \& Hines, O. J.\
+Arxiv 2024 (Forthcoming in Causal Learning and Reasoning 2025).
 
 - [Demystifying statistical learning based on efficient influence functions.](https://doi.org/10.1080/00031305.2021.2021984)\
 Hines, O., Dukes, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
@@ -32,13 +36,9 @@ European Heart Journal - Cardiovascular Pharmacotherapy, 2021.
 
 - [Causal graphs for the analysis of genetic cohort data.](https://doi.org/10.1152/physiolgenomics.00115.2019)\
 Hines, O., Diaz-Ordaz, K., Vansteelandt, S., \& Jamshidi, Y.\
-Physiological Genomics, 2020. 
+Physiological Genomics, 2020.
 
-# Preprints
-
-- [Automatic debiasing of neural networks via moment-constrained learning.](https://doi.org/10.48550/arXiv.2409.19777)\
-Hines, C. L., \& Hines, O. J.\
-Arxiv 2024.
+## Preprints
 
 - [Optimally weighted average derivative effects.](https://doi.org/10.48550/arXiv.2308.05456)\
 Hines, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
@@ -52,7 +52,7 @@ Arxiv 2022.
 Hines, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
 Arxiv 2021.
 
-# Presentations and workshops
+## Presentations and workshops
 
 - *Causal inference with continuous treatments, a tale of two estimands*. Symposium organised by the Centre for Microdata Methods and Practice (London, UK), December 2023.
 
@@ -68,7 +68,7 @@ Arxiv 2021.
 
 - *Causal machine learning workshop*. European Causal Inference Meeting (virtual), May 2021.
 
-# Peer review service
+## Peer review service
 
 - Biometrics
 
@@ -81,4 +81,3 @@ Arxiv 2021.
 - Scandinavian Journal of Statistics
 
 - Statistica Sinica
-
