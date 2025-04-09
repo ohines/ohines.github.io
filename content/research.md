@@ -70,11 +70,15 @@ Arxiv 2021.
 
 ## Peer review service
 
+- American Journal of Epidemiology
+
 - Biometrics
 
 - Biostatistics
 
 - International Journal of Biostatistics
+
+- Journal of the American Statistical Association
 
 - Journal of the Royal Statistical Society: Series B
 
