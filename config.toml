@@ -14,8 +14,7 @@ top_menu = true
 menu = [
     { text = "home", link = "/" },
     { text = "research", link = "/research" },
-    { text = "cv", link = "/cv" },
-    { text = "thesis", link = "/thesis" }
+    { text = "cv", link = "/cv" }
 ]
 social = [
     { name = "twitter", link = "https://twitter.com/hines8" },

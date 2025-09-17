@@ -10,9 +10,13 @@ hide_title = true
 
 See [google scholar page](https://scholar.google.com/citations?hl=en&user=7nqnc34AAAAJ) for additional information.
 
-- [Automatic debiasing of neural networks via moment-constrained learning.](https://doi.org/10.48550/arXiv.2409.19777)\
+- [Variable importance measures for heterogeneous causal effects.](https://doi.org/10.48550/arXiv.2204.06030)\
+Hines, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
+Arxiv 2022 (Forthcoming in Biometrics).
+
+- [Automatic debiasing of neural networks via moment-constrained learning.](https://proceedings.mlr.press/v275/hines25a.html)\
 Hines, C. L., \& Hines, O. J.\
-Arxiv 2024 (Forthcoming in Causal Learning and Reasoning 2025).
+Proceedings of the Fourth Conference on Causal Learning and Reasoning, PMLR, 2025.
 
 - [Demystifying statistical learning based on efficient influence functions.](https://doi.org/10.1080/00031305.2021.2021984)\
 Hines, O., Dukes, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
@@ -40,13 +44,13 @@ Physiological Genomics, 2020.
 
 ## Preprints
 
+- [Riesz representers for the rest of us](https://doi.org/10.48550/arXiv.2507.19413)\
+Williams N. T., Hines O. J., Rudolph K. E.\
+Arxiv 2025.
+
 - [Optimally weighted average derivative effects.](https://doi.org/10.48550/arXiv.2308.05456)\
 Hines, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
 Arxiv 2023.
-
-- [Variable importance measures for heterogeneous causal effects.](https://doi.org/10.48550/arXiv.2204.06030)\
-Hines, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
-Arxiv 2022.
 
 - [Parameterising the effect of a continuous exposure using average derivative effects.](https://doi.org/10.48550/arXiv.2109.13124)\
 Hines, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
