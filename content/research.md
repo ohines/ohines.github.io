@@ -6,13 +6,17 @@ description = "Research profile of Oliver Hines"
 hide_title = true
 +++
 
-## Publications
+## Selected Publications
 
-See [google scholar page](https://scholar.google.com/citations?hl=en&user=7nqnc34AAAAJ) for additional information.
+See [google scholar](https://scholar.google.com/citations?hl=en&user=7nqnc34AAAAJ) for a full list.
 
-- [Variable importance measures for heterogeneous causal effects.](https://doi.org/10.48550/arXiv.2204.06030)\
-Hines, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
-Arxiv 2022 (Forthcoming in Biometrics).
+- [Parameterising the effect of a continuous treatment using average derivative effects.](https://doi.org/10.1093/biomet/asag012)\
+Hines, O. J., Diaz-Ordaz, K., \& Vansteelandt, S.\
+Biometrika, 2026.
+
+- [Variable importance measures for heterogeneous causal effects.](https://doi.org/10.1093/biomtc/ujaf140)\
+Hines, O. J., Diaz-Ordaz, K., \& Vansteelandt, S.\
+Biometrics, 2025.
 
 - [Automatic debiasing of neural networks via moment-constrained learning.](https://proceedings.mlr.press/v275/hines25a.html)\
 Hines, C. L., \& Hines, O. J.\
@@ -22,21 +26,9 @@ Proceedings of the Fourth Conference on Causal Learning and Reasoning, PMLR, 202
 Hines, O., Dukes, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
 The American Statistician, 2022.
 
-- [Oliver Hines and Karla Diaz-Ordazʼs contribution to the discussion of ‘Assumption-lean inference for generalised linear model parameters’ by Vansteelandt and Dukes.](https://doi.org/10.1111/rssb.12524)\
-Hines, O. \& Diaz-Ordaz, K.\
-Journal of the Royal Statistical Society Series B, 2022.
-
-- [Genetic analyses of the electrocardiographic QT interval and its components identify additional loci and pathways.](https://doi.org/10.1038/s41467-022-32821-z)\
-Young, W.J., Lahrouchi, N., Isaacs, A. et al.\
-Nature Communications, 2022
-
 - [Robust inference for mediated effects in partially linear models.](https://doi.org/10.1007/s11336-021-09768-z)\
 Hines, O., Vansteelandt, S., \& Diaz-Ordaz, K.\
 Psychometrika, 2021.
-
-- [Long-term cardiovascular outcomes after orlistat therapy in patients with obesity: a nationwide, propensity-score matched cohort study.](https://doi.org/10.1093/ehjcvp/pvaa133)\
-Ardissino, M., Vincent, M., Hines, O., Amin, R., Eichhorn, C., Tang, A. R., Collins, P., Moussa, O., Purkayastha, S.\
-European Heart Journal - Cardiovascular Pharmacotherapy, 2021.
 
 - [Causal graphs for the analysis of genetic cohort data.](https://doi.org/10.1152/physiolgenomics.00115.2019)\
 Hines, O., Diaz-Ordaz, K., Vansteelandt, S., \& Jamshidi, Y.\
@@ -44,19 +36,13 @@ Physiological Genomics, 2020.
 
 ## Preprints
 
-- [Riesz representers for the rest of us](https://doi.org/10.48550/arXiv.2507.19413)\
-Williams N. T., Hines O. J., Rudolph K. E.\
-Arxiv 2025.
-
-- [Optimally weighted average derivative effects.](https://doi.org/10.48550/arXiv.2308.05456)\
-Hines, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
-Arxiv 2023.
-
-- [Parameterising the effect of a continuous exposure using average derivative effects.](https://doi.org/10.48550/arXiv.2109.13124)\
-Hines, O., Diaz-Ordaz, K., \& Vansteelandt, S.\
-Arxiv 2021.
+- [Learning density ratios in causal inference using Bregman-Riesz regression](https://doi.org/10.48550/arXiv.2510.16127)\
+Hines O.J. \& Miles C.H.
+Arxiv, 2025.
 
 ## Presentations and workshops
+
+- *Variable importance measures for heterogeneous treatment effects*. Joint Statistical Meeting (Nashville, USA), August 2025
 
 - *Causal inference with continuous treatments, a tale of two estimands*. Symposium organised by the Centre for Microdata Methods and Practice (London, UK), December 2023.
 
@@ -83,6 +69,8 @@ Arxiv 2021.
 - International Journal of Biostatistics
 
 - Journal of the American Statistical Association
+
+- Journal of the Royal Statistical Society: Series A
 
 - Journal of the Royal Statistical Society: Series B
 
