@@ -36,7 +36,7 @@ Physiological Genomics, 2020.
 
 ## Preprints
 
-- [Learning density ratios in causal inference using Bregman--Riesz regression](https://doi.org/10.48550/arXiv.2510.16127)\
+- [Learning density ratios in causal inference using Bregman-Riesz regression](https://doi.org/10.48550/arXiv.2510.16127)\
 Hines O.J. \& Miles C.H.
 Arxiv, 2025.
 
