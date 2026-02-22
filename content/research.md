@@ -12,7 +12,7 @@ See [google scholar](https://scholar.google.com/citations?hl=en&user=7nqnc34AAAA
 
 - [Parameterising the effect of a continuous treatment using average derivative effects.](https://doi.org/10.1093/biomet/asag012)\
 Hines, O. J., Diaz-Ordaz, K., \& Vansteelandt, S.\
-Biometrika 2026.
+Biometrika, 2026.
 
 - [Variable importance measures for heterogeneous causal effects.](https://doi.org/10.1093/biomtc/ujaf140)\
 Hines, O. J., Diaz-Ordaz, K., \& Vansteelandt, S.\
