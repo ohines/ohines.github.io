@@ -1,0 +1,239 @@
+# Publications data.
+# Each entry's TOML array name controls which section it appears in on the
+# research page. Within each section, entries are sorted by year (descending).
+#
+# Set `hidden = true` on any entry to keep it in the file but exclude it from
+# the rendered page. Useful for staging non-"selected" papers — flipping the
+# flag becomes a one-line PR when you decide to surface them.
+#
+# Schema:
+#   article / preprint
+#     title    (string, required)
+#     authors  (list of strings, required)
+#     venue    (string, required) -- journal or proceedings
+#     year     (integer, required)
+#     url      (string, optional) -- DOI or canonical link
+#     hidden   (bool, optional) -- omit from rendered page
+#
+#   presentation
+#     title     (string, required)
+#     venue     (string, required)
+#     location  (string, optional)
+#     year      (integer, required)
+#     month     (string, optional) -- full month name e.g. "August"; used to sort within year
+#     invited   (bool, optional)
+#     hidden    (bool, optional) -- omit from rendered page
+#
+#   peer_review
+#     journal   (string, required)
+
+[[article]]
+title = "ScoreStop: Gradient-based early stopping using functional score tests"
+authors = ["Hines, O.J.", "Hines C.L."]
+venue = "ICML Workshop on Hypothesis Testing"
+year = 2026
+
+[[article]]
+title = "Parameterising the effect of a continuous treatment using average derivative effects"
+authors = ["Hines, O.J.", "Diaz-Ordaz, K.", "Vansteelandt, S."]
+venue = "Biometrika"
+year = 2026
+url = "https://doi.org/10.1093/biomet/asag012"
+
+[[article]]
+title = "Riesz representers for the rest of us"
+authors = ["Williams, N.T.", "Hines, O.J.", "Rudolph, K.E."]
+venue = "Epidemiology"
+year = 2026
+url = "https://doi.org/10.1097/EDE.0000000000001996"
+
+[[article]]
+title = "Variable importance measures for heterogeneous causal effects"
+authors = ["Hines, O.J.", "Diaz-Ordaz, K.", "Vansteelandt, S."]
+venue = "Biometrics"
+year = 2025
+url = "https://doi.org/10.1093/biomtc/ujaf140"
+
+[[article]]
+title = "Automatic debiasing of neural networks via moment-constrained learning"
+authors = ["Hines, C.L.", "Hines, O.J."]
+venue = "Proceedings of the Fourth Conference on Causal Learning and Reasoning, PMLR"
+year = 2025
+url = "https://proceedings.mlr.press/v275/hines25a.html"
+
+[[article]]
+title = "Demystifying statistical learning based on efficient influence functions"
+authors = ["Hines, O.J.", "Dukes, O.", "Diaz-Ordaz, K.", "Vansteelandt, S."]
+venue = "The American Statistician"
+year = 2022
+url = "https://doi.org/10.1080/00031305.2021.2021984"
+
+[[article]]
+hidden = true
+title = "Genetic analyses of the electrocardiographic QT interval and its components identify additional loci and pathways"
+authors = ["Young, W.J. et al."]
+venue = "Nature Communications"
+year = 2022
+url = "https://doi.org/10.1038/s41467-022-32821-z"
+
+[[article]]
+title = "Long-term cardiovascular outcomes after orlistat therapy in patients with obesity: a nationwide, propensity-score matched cohort study"
+authors = ["Ardissino, M.", "Vincent, M.", "Hines, O.J.", "Amin, R.", "Eichhorn, C.", "Tang, A.R.", "Collins, P.", "Moussa, O.", "Purkayastha, S."]
+venue = "European Heart Journal - Cardiovascular Pharmacotherapy"
+year = 2021
+url = "https://doi.org/10.1093/ehjcvp/pvaa133"
+
+[[article]]
+title = "Robust inference for mediated effects in partially linear models"
+authors = ["Hines, O.J.", "Vansteelandt, S.", "Diaz-Ordaz, K."]
+venue = "Psychometrika"
+year = 2021
+url = "https://doi.org/10.1007/s11336-021-09768-z"
+
+[[article]]
+title = "Causal graphs for the analysis of genetic cohort data"
+authors = ["Hines, O.J.", "Diaz-Ordaz, K.", "Vansteelandt, S.", "Jamshidi, Y."]
+venue = "Physiological Genomics"
+year = 2020
+url = "https://doi.org/10.1152/physiolgenomics.00115.2019"
+
+[[preprint]]
+title = "Learning density ratios in causal inference using Bregman-Riesz regression"
+authors = ["Hines, O. J.", "Miles, C. H."]
+venue = "Arxiv"
+year = 2025
+url = "https://doi.org/10.48550/arXiv.2510.16127"
+
+[[presentation]]
+title = "Learning density ratios in causal inference using Bregman-Riesz regression"
+venue = "International Symposium on Nonparametric Statistics"
+location = "Thessaloniki, Greece"
+invited = true
+month = "June"
+year = 2026
+
+[[presentation]]
+title = "Where best to intervene?"
+venue = "New England Statistics Symposium"
+location = "Storrs, CT, USA"
+invited = true
+month = "May"
+year = 2026
+
+[[presentation]]
+title = "Learning density ratios in causal inference using Bregman-Riesz regression"
+venue = "American Causal Inference Conference"
+location = "Salt Lake City UT, USA"
+invited = true
+month = "May"
+year = 2026
+
+[[presentation]]
+title = "Beyond the Dose–Response Curve: Weighted Average Derivative Effects for Continuous Treatments"
+venue = "University of Washington Seminar"
+invited = true
+location = "Seattle WA, USA"
+month = "March"
+year = 2026
+
+[[presentation]]
+title = "Variable importance measures for heterogeneous treatment effects"
+venue = "Joint Statistical Meeting"
+invited = true
+location = "Nashville TN, USA"
+month = "August"
+year = 2025
+
+[[presentation]]
+title = "What is Automatic Debiasing? Why do it and how?"
+venue = "Columbia University Seminar"
+invited = true
+location = "New York NY, USA"
+month = "April"
+year = 2025
+
+[[presentation]]
+title = "Causal inference with continuous treatments, a tale of two estimands"
+venue = "Symposium organised by the Centre for Microdata Methods and Practice"
+invited = true
+location = "London, UK"
+month = "December"
+year = 2023
+
+[[presentation]]
+title = "Bridging the divide: data science and statistics in academia and industry"
+venue = "Ghent University Seminar"
+invited = true
+location = "Ghent, Belgium"
+month = "October"
+year = 2023
+
+[[presentation]]
+title = "Demystifying statistical learning based on efficient influence functions"
+venue = "CMStatistics"
+invited = true
+location = "London, UK"
+month = "December"
+year = 2022
+
+[[presentation]]
+title = "Variable importance measures for heterogeneous causal effects"
+venue = "International Biometric Conference"
+location = "Riga, Latvia"
+month = "July"
+year = 2022
+
+[[presentation]]
+title = "Assumption-lean causal inference for direct and indirect effects"
+venue = "Joint Statistical Meeting"
+location = "virtual"
+month = "August"
+year = 2021
+
+[[presentation]]
+title = "Parameterising and inferring the effect of a continuous exposure using average derivative effects"
+venue = "European Causal Inference Meeting"
+invited = true
+location = "virtual"
+month = "May"
+year = 2021
+
+[[presentation]]
+title = "Causal machine learning workshop"
+venue = "European Causal Inference Meeting"
+location = "virtual"
+month = "May"
+year = 2021
+
+[[peer_review]]
+journal = "American Journal of Epidemiology"
+
+[[peer_review]]
+journal = "Biometrics"
+
+[[peer_review]]
+journal = "Biostatistics"
+
+[[peer_review]]
+journal = "International Conference on Machine Learning"
+
+[[peer_review]]
+journal = "International Journal of Biostatistics"
+
+[[peer_review]]
+journal = "Journal of the American Statistical Association"
+
+[[peer_review]]
+journal = "Journal of Causal Inference"
+
+[[peer_review]]
+journal = "Journal of the Royal Statistical Society: Series A"
+
+[[peer_review]]
+journal = "Journal of the Royal Statistical Society: Series B"
+
+[[peer_review]]
+journal = "Scandinavian Journal of Statistics"
+
+[[peer_review]]
+journal = "Statistica Sinica"

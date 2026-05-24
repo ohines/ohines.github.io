@@ -1,0 +1,9 @@
+{# Render peer-review service list, one journal per line.
+   Usage: {{ peer_review() }} #}
+{%- set data = load_data(path="data/research.toml") -%}
+{%- set items = data.peer_review | sort(attribute="journal") -%}
+<div class="peer-review">
+{%- for item in items %}
+  <div class="journal">{{ item.journal }}</div>
+{%- endfor %}
+</div>
