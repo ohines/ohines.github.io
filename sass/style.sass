@@ -240,3 +240,40 @@ hr
             color: $body-text
             & a
                 color: $body-text
+    & table.publications
+        width: 100%
+        border-collapse: collapse
+        margin: 1rem 0
+        & td, th
+            border: none
+            padding: 0.6rem 0
+            text-align: left
+            vertical-align: top
+        & .pub-year
+            width: 4rem
+            padding-right: 1rem
+            opacity: 0.55
+            font-variant-numeric: tabular-nums
+            line-height: 1.5
+        & .pub-entry
+            letter-spacing: 0.3px
+            line-height: 1.5
+            & .pub-title
+                display: block
+                & a
+                    border-bottom: none
+                    &:hover
+                        color: $links-hover
+            & .pub-authors
+                display: block
+                font-size: 0.95rem
+                opacity: 0.85
+            & .pub-venue
+                display: block
+                font-size: 0.95rem
+                opacity: 0.75
+    & .peer-review
+        margin-bottom: 1em
+        & .journal
+            line-height: 1.8
+            margin-bottom: 0

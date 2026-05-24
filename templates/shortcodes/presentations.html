@@ -1,0 +1,48 @@
+{# Render presentations with year in a left-side column.
+   Years are sorted descending; within each year, entries are sorted by
+   month (descending). Entries without a month sort last for that year.
+   Usage: {{ presentations() }} #}
+{%- set data = load_data(path="data/research.toml") -%}
+{%- set items = data.presentation -%}
+{%- set month_order = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] -%}
+{%- set_global years = [] -%}
+{%- for item in items -%}
+  {%- if item.year not in years -%}
+    {%- set_global years = years | concat(with=item.year) -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- set years = years | sort | reverse -%}
+<table class="publications">
+{%- for year in years -%}
+  {%- for month in month_order | reverse -%}
+    {%- for item in items -%}
+      {%- if item.year == year and item.month == month and not item.hidden %}
+  <tr>
+    <td class="pub-year">{{ item.year }}</td>
+    <td class="pub-entry">
+      <span class="pub-title">{{ item.title }}</span>
+      <span class="pub-venue">
+        <em>{{- item.venue -}}</em>
+        {%- if item.location %} ({{ item.location }}){% endif -%}
+      </span>
+    </td>
+  </tr>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+  {%- for item in items -%}
+    {%- if item.year == year and not item.month and not item.hidden %}
+  <tr>
+    <td class="pub-year">{{ item.year }}</td>
+    <td class="pub-entry">
+      <span class="pub-title">{{ item.title }}</span>
+      <span class="pub-venue">
+        <em>{{- item.venue -}}</em>
+        {%- if item.location %} ({{ item.location }}){% endif -%}
+      </span>
+    </td>
+  </tr>
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor %}
+</table>
