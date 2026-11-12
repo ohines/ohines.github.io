@@ -105,6 +105,21 @@ venue = "Arxiv"
 year = 2025
 url = "https://arxiv.org/abs/2510.16127"
 
+[[preprint]]
+title = "Targeted Learning on Variable Importance Measure for Heterogeneous Treatment Effect"
+authors = ["Li, H.", "Hubbard, A.E.", "Hines, O. J.", "Storås, A.E.", "Kvist K.", "van der Laan, M.J."]
+venue = "Arxiv"
+year = 2026
+url = "https://arxiv.org/abs/2309.13324"
+
+[[presentation]]
+title = "The role of surrogate outcomes in combining data from multiple studies"
+venue = "Statistical Learning and Data Science"
+location = "New York, NY, USA"
+invited = true
+month = "November"
+year = 2026
+
 [[presentation]]
 title = "Learning density ratios in causal inference using Bregman-Riesz regression"
 venue = "International Symposium on Nonparametric Statistics"
